@@ -1,0 +1,94 @@
+.show{
+    margin-inline: 10vw;
+}
+
+
+
+/* .body{
+    
+} */
+.title{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.maintitle{
+    margin-top: 0;
+}
+
+.middle{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(208px, 1.27fr)); 
+/* display: flex;
+justify-content: space-evenly; */
+}
+
+.imagediv{
+    max-width: 500px;
+}
+
+.ima{
+    display: flex;
+    justify-content:flex-start;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.characterinfo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.characterpic{
+    width: 40px;
+    height: 40px;
+    border-radius: 3rem;
+    
+}
+
+
+.names{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.actorname{
+    text-decoration: none;
+    color: black;
+}
+.italictext{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+/* .season{} */
+
+
+.miniseason{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seasonlist{
+    padding-left: 10px;
+}
+
+.seasonimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 3rem;
+}
+
+.miniminititle{
+    margin: 0;
+    text-align: center;
+}
+
+.footer{
+    margin-bottom: 15px;
+}
+
