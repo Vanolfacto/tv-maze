@@ -73,7 +73,7 @@ const Show = () => {
                     <div className="seasonlist">
                       <a href={seas.url} className="italictext">
                         {' '}
-                        <p>Season {seas.number}</p>
+                        <p className="italictextt">Season {seas.number}</p>
                       </a>
                       <a href={seas.url} className="italictext">
                         {' '}

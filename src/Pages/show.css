@@ -1,94 +1,93 @@
-.show{
-    margin-inline: 10vw;
+.show {
+  margin-inline: 10vw;
 }
-
-
 
 /* .body{
-    
+
 } */
-.title{
-    display: flex;
-    justify-content: space-evenly;
-   
-}
-.maintitle{
-    margin-top: 0;
+.title {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.middle{
-     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(208px, 1.27fr)); 
-/* display: flex;
-justify-content: space-evenly; */
+.maintitle {
+  margin-top: 0;
 }
 
-.imagediv{
-    max-width: 500px;
+.middle {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(208px, 1.27fr));
+  /* display: flex;
+  justify-content: space-evenly; */
 }
 
-.ima{
-    display: flex;
-    justify-content:flex-start;
-    position: relative;
-    align-items: center;
-    width: 100%;
+.imagediv {
+  max-width: 500px;
 }
 
-.characterinfo{
-    display: flex;
-    align-items: center;
-    margin: 10px;
+.ima {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  width: 100%;
 }
 
-.characterpic{
-    width: 40px;
-    height: 40px;
-    border-radius: 3rem;
-    
+.characterinfo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
-
-.names{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
+.characterpic {
+  width: 40px;
+  height: 40px;
+  border-radius: 3rem;
 }
 
-.actorname{
-    text-decoration: none;
-    color: black;
+.names {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
 }
-.italictext{
-    font-style: italic;
-    text-decoration: none;
-    color: black;
+
+.actorname {
+  text-decoration: none;
+  color: black;
 }
+
+.italictext {
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
 /* .season{} */
-
-
-.miniseason{
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.italictextt {
+  font-style: normal;
 }
 
-.seasonlist{
-    padding-left: 10px;
+.miniseason {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.seasonimage{
-    width: 40px;
-    height: 40px;
-    border-radius: 3rem;
+.seasonlist {
+  padding-left: 10px;
 }
 
-.miniminititle{
-    margin: 0;
-    text-align: center;
+.seasonimage {
+  width: 40px;
+  height: 40px;
+  border-radius: 3rem;
 }
 
-.footer{
-    margin-bottom: 15px;
+.miniminititle {
+  margin: 0;
+  text-align: center;
 }
 
+.footer {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=show.css.map */

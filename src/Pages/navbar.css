@@ -39,12 +39,55 @@ top: 0px;
    
     justify-content: space-evenly;
     align-items: flex-end;
-    width: 20%;
-    margin-left: 50px;
+    width: 100%;
+    
     color: aliceblue;
     background-color: black;
     border-color: white;
     border-radius: 0.3rem;
     position: relative;
    
+}
+
+.searchbar{
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 20%;
+    color: aliceblue;
+    background-color: black;
+    border-color: white;
+    border-radius: 0.3rem;
+    position: relative;
+}
+/* 
+.dropbar{
+    background-color: aliceblue;
+    color: white;
+}
+
+.searchentry{
+    padding: 10px 20px;
+    border: solid black 1px;
+    border-top: none;
+} */
+
+.droplist{
+    list-style-type: none;
+    position: absolute;
+    background: rgb(44, 34, 59);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.lists{
+    border: solid black 1px;
+    border-top: none;
+    color: white;
+    text-align: center;
+}
+
+.lists:hover{
+    font-weight: bold;
 }
