@@ -34,6 +34,8 @@ const Navbar = props => {
   //     .then(res => res.json())
   //     .then(res => setResult(res));
   // };
+  const noimg =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019';
   return (
     <div className="navbar">
       <div className="header">
@@ -45,7 +47,8 @@ const Navbar = props => {
           {result ? (
             <ul className="droplist">
               {result.map((res, index) => (
-                <Link className="link" to={`/show/${res.show.id}`}>
+                <Link className="linkkk" to={`/show/${res.show.id}`}>
+                  <img className="listimage" src={res?.show?.image?.medium ? res.show.image.medium : noimg} alt="" />
                   <li className="lists">{res.show.name}</li>
                 </Link>
               ))}
