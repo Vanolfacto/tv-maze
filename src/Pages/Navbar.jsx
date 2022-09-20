@@ -12,28 +12,8 @@ const Navbar = props => {
     fetch(`https://api.tvmaze.com/search/shows?q=${query}`)
       .then(res => res.json())
       .then(res => setResult(res));
-    // fetch('https://api.tvmaze.com/shows')
-    //   .then(res => res.json())
-    //   .then(res => setData(res));
-    //   //{
-    //   //   setResult([]);
-    //   //   let searchQuery = query.toLowerCase();
-    //   //   for (const key in responseData) {
-    //   //     let series = responseData[key].name.toLowerCase;
-    //   //     if (series.slice(0, searchQuery.length).indexOf(searchQuery) !== -1) {
-    //   //       setResult(prevResult => {
-    //   //         return [...prevResult, responseData[key].name];
-    //   //       });
-    //   //     }
-    //   //   }
-    //   // });
   }, [query]);
-  // const handleSearch = q => {
-  //   setQuery(q)
-  //   fetch(`https://api.tvmaze.com/search/shows?q=${query}`)
-  //     .then(res => res.json())
-  //     .then(res => setResult(res));
-  // };
+
   const noimg =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019';
   return (
