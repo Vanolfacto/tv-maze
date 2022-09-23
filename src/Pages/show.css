@@ -2,35 +2,28 @@
   margin-inline: 10vw;
 }
 
-/* .body{
-
-} */
 .title {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.maintitle {
   margin-top: 0;
+  text-align: center;
 }
 
 .middle {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(208px, 1.27fr));
-  /* display: flex;
-  justify-content: space-evenly; */
 }
 
-.imagediv {
-  max-width: 500px;
-}
-
-.ima {
+.showImage {
   display: flex;
   justify-content: flex-start;
   position: relative;
   align-items: center;
   width: 100%;
+  max-width: 500px;
+}
+
+.miniminititle {
+  margin: 0;
+  text-align: center;
 }
 
 .characterinfo {
@@ -39,10 +32,20 @@
   margin: 10px;
 }
 
+.actorimage {
+  width: 40px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
 .characterpic {
   width: 40px;
-  height: 40px;
-  border-radius: 3rem;
+  position: absolute;
+  top: 1;
 }
 
 .names {
@@ -62,19 +65,10 @@
   color: black;
 }
 
-/* .season{} */
-.italictextt {
-  font-style: normal;
-}
-
 .miniseason {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.seasonlist {
-  padding-left: 10px;
 }
 
 .seasonimage {
@@ -83,9 +77,8 @@
   border-radius: 3rem;
 }
 
-.miniminititle {
-  margin: 0;
-  text-align: center;
+.seasonlist {
+  padding-left: 10px;
 }
 
 .footer {
